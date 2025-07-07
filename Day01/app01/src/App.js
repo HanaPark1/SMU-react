@@ -26,6 +26,11 @@ function App() {
     
   // }
 
+  const btn = () => {
+      alert('경고창');
+    }
+  
+
   return (
     // html 소스 부분
     // <div className="App">
@@ -48,7 +53,7 @@ function App() {
             <input></input>
           </div>
         </div>
-        <button className='loginBtn'>로그인</button>
+        <button className='loginBtn' onClick={btn}>로그인</button>
       </div>
     </>
   );
